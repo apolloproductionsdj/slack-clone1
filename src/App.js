@@ -5,7 +5,6 @@ import {
   BrowserRouter as Router,
   Switch,
   Route,
-  Link
 } from "react-router-dom";
 
 function App() {
@@ -17,7 +16,7 @@ function App() {
 
           <Switch>
             <Route path="/" exact>
-              <h1>This is the Home Page</h1>
+              <Header />
             </Route>
           </Switch>
         </>
