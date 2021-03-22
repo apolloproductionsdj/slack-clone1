@@ -1,5 +1,5 @@
 import React from 'react';
-import './Header.css';
+import styled from 'styled-components';
 
 function Header() {
     return (
@@ -9,4 +9,8 @@ function Header() {
     )
 }
 
-export default Header
+export default Header;
+
+const HeaderContainer = styled.div`
+    color: red;
+`
