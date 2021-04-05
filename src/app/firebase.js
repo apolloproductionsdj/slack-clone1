@@ -1,4 +1,6 @@
 // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+import firebase from 'firebase';
+
 const firebaseConfig = {
     apiKey: "AIzaSyCx_Aeh12xfI6AOlJvKCbVtUZCuPdX2vLU",
     authDomain: "slack-clone-e6eef.firebaseapp.com",

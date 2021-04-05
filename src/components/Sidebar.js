@@ -40,7 +40,7 @@ function Sidebar() {
             <hr />
             <SidebarOption Icon={ExpandMoreIcon} title="Channels" />
             <hr />
-            <SidebarOption Icon={AddIcon} addchannelOption title="Add Channel" />
+            <SidebarOption Icon={AddIcon} addChannelOption title="Add Channel" />
 
         </SidebarContainer>
     )
