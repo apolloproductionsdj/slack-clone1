@@ -14,7 +14,7 @@ import SidebarOption from './SidebarOption';
 import ExpandMoreIcon from '@material-ui/icons/ExpandMore';
 import AddIcon from '@material-ui/icons/Add';
 import { useCollection } from 'react-firebase-hooks/firestore';
-// import { db } from '../app/firebase';
+import { db } from '../app/firebase';
 
 function Sidebar() {
     const [channels, loading, error] = useCollection(db.collection('rooms'));
